@@ -55,10 +55,6 @@ div.minicontain{
   border: none;
   background-color: #fff;
 }
-/* 
-div.minicontain:last-child{
-  background-color: blue;
-} */
 div#contain>h2:first-of-type{
   width: 100%; 
   font-family: 'Bungee Spice', cursive;
