@@ -1,0 +1,79 @@
+html{
+  background: url('./assets/curtain-g94529804b_1920.jpg') 100%;
+}
+
+h1{
+  font-family: 'Nabla', cursive;
+  width: 100%;
+  text-align: center;
+}
+div#box{
+  width: 800px;
+  background-color: #fff;
+  /* opacity: 70%; */
+  margin: 100px auto 0; 
+  padding: 0 0 50px 0;
+}
+div#button{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+}
+div#button>button{
+  width: 150px;
+  height: 50px;
+  margin: 0 10px;
+  border: none;
+  color: #fff;
+  font-family: 'Bungee Spice', cursive;
+  font-size: 20px;
+}
+div#button>button:first-child{
+  background-color: black;
+}
+div#button>button:last-child{
+  background-color: green;
+}
+div#box>#contain{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div#box>#contain>h1{
+  display: flex;
+  align-items: center;
+}
+
+div.minicontain{
+  width: 300px;
+  margin: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: none;
+  background-color: #fff;
+}
+/* 
+div.minicontain:last-child{
+  background-color: blue;
+} */
+div#contain>h2:first-of-type{
+  width: 100%; 
+  font-family: 'Bungee Spice', cursive;
+  text-align: center;
+  font-size: 30px;
+}
+div.minicontain>h2{
+  width: 100%;
+  text-align: center;
+  font-family: 'Stylish';
+  color: red;
+}
+div.minicontain>h2:first-of-type {
+    font-family: 'Bungee Spice', cursive;
+}
+div.minicontain>h2:last-of-type{
+    color: blue;
+}
