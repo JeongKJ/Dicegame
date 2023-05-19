@@ -3,7 +3,6 @@ html{
 }
 
 h1{
-  font-family: 'Nabla', cursive;
   width: 100%;
   text-align: center;
 }
@@ -25,51 +24,33 @@ div#button>button{
   margin: 0 10px;
   border: none;
   color: #fff;
-  font-family: 'Bungee Spice', cursive;
   font-size: 20px;
-}
-div#button>button:first-child{
   background-color: black;
 }
-div#button>button:last-child{
-  background-color: green;
-}
-div#box>#contain{
-  margin: 0 auto;
+div#contain{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
-div#box>#contain>h1{
-  display: flex;
-  align-items: center;
-}
-
-div.minicontain{
+div.redteam{
   width: 300px;
-  margin: 0 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  border: none;
-  background-color: #fff;
 }
-div#contain>h2:first-of-type{
-  width: 100%; 
-  font-family: 'Bungee Spice', cursive;
-  text-align: center;
-  font-size: 30px;
+div.minicontain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 50px;
 }
 div.minicontain>h2{
   width: 100%;
   text-align: center;
-  font-family: 'Stylish';
-  color: red;
 }
-div.minicontain>h2:first-of-type {
-    font-family: 'Bungee Spice', cursive;
+div.minicontain:last-child{
+  width: 300px;
 }
-div.minicontain>h2:last-of-type{
-    color: blue;
+div#contain h2{
+  width: 100%;
+  text-align: center;
 }
+
