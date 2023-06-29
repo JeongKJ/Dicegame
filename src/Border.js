@@ -1,4 +1,3 @@
-
 import Screen from "./Screen"
 export default function Border({ color, team, dice }) {
     
@@ -6,8 +5,7 @@ export default function Border({ color, team, dice }) {
     return (
         <div className="minicontain">
             <h2>{team}</h2>
-            <Screen color={color} dice={role} />
-
+        <Screen color={color} dice={role} />
         </div>
     )
 }
