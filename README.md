@@ -7,7 +7,7 @@
 ### 배포링크
 
 배포방식은 AWS:S3의 간이 배포를 이용하였습니다.
-<a href="http://http://kmkm37.portfolio3.s3-website.ap-northeast-2.amazonaws.com/">바로가기</a>
+<a href="http://kmkm37.portfolio3.s3-website.ap-northeast-2.amazonaws.com /">바로가기</a>
 
 ### 개발 도구 및 환경
 
